@@ -11,3 +11,24 @@ body {
     height: 128px;
     background-color: #C4E2BF;
 }
+
+#about {
+    width: auto;
+    height: 384;
+}
+
+#skills {
+    width: auto;
+    height: 584;
+    background-color: #36718A;
+}
+
+#visual {
+    width: auto;
+    height: 1284px;
+}
+
+#logoDesign {
+    width: auto;
+    height: 915px;
+}
