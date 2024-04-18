@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: white;
     align-items: center;
     top: 0px;
 }
@@ -31,4 +32,5 @@ body {
 #logoDesign {
     width: auto;
     height: 915px;
+    background-color: #C4E2BF;
 }
