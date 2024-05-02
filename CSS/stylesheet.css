@@ -23,8 +23,9 @@ ul {
 #logo {
     margin-left: 47px;
     margin-top: 5px;
-    width: 144px;
+    
     height: 168px;
+    z-index: +1;
 }
 
 #mainContainer {
@@ -36,6 +37,24 @@ ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#aboutBox {
+    display: flex;
+    align-items: flex-start;
+    top: 103px;
+    height: 462px;
+    position: absolute;
+    z-index: +1;
+}
+
+#me {
+    width: 395px;
+    height: 397px;
+}
+
+#speechBubble {
+    margin-left: 78px;
+}
+
 
 #header {
     width: auto;
@@ -43,6 +62,7 @@ ul {
     background-color: #C4E2BF;
     display: flex;
     flex-direction: row;
+    gap: 150px;
     
 }
 
@@ -55,6 +75,7 @@ ul {
     list-style-type: none;
     color: white;
     font-family: 'bodonimoda';
+    align-items: center;
 }
 
 .header {
@@ -89,6 +110,8 @@ ul {
 #about {
     width: auto;
     height: 384;
+    border-radius: 3px;
+    border: black;
 }
 
 #skills {
@@ -98,13 +121,15 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+   
 }
 
 h1  {
-    font-size: 90px;
+    font-size: 120px;
     font-style: bold;
     color: #36718A;
     margin: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h2 {
@@ -145,7 +170,6 @@ h2 {
     height: 1284px;
     width: auto;
     background-color: white;
-    visibility: visible
 }
 
 #logoDesign {
@@ -222,7 +246,7 @@ h2 {
     width: 962px;
     position: absolute;
     z-index: +1;
-    top: 580px;
+    top: 570px;
     margin: 25px;
 }
 
@@ -231,10 +255,14 @@ h2 {
     justify-content: center;
     position: absolute;
     z-index: +1;
+    top: 512px;
 }
 
 #skillsTitle {
     margin-left: 156px;
+    margin-top: 5px;
+    z-index: +1;
 }
+
 
 
