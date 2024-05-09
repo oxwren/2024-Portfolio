@@ -157,11 +157,11 @@ h2 {
 
 #visual {
     width: auto;
-    height: 1550px;
+    height: 1580px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    top: 925px;
+    top: 880px;
     position: absolute;
     z-index: +1;
 }
@@ -174,7 +174,7 @@ h2 {
 
 #logoDesign {
     width: auto;
-    height: 915px;
+    height: 1000px;
     background-color: #C4E2BF;
     margin-top: 1440px;
 }
@@ -224,7 +224,7 @@ h2 {
 }
 
 #artExperience {
-    height: 1550px;
+    height: 1500px;
     width: 322px;
     background-color: #B1DCEF;
     margin-left: 45px;
@@ -261,7 +261,51 @@ h2 {
 #skillsTitle {
     margin-left: 156px;
     margin-top: 5px;
+    margin-bottom: 0px;
     z-index: +1;
+}
+
+#logoHeader {
+    margin-left: 85px;
+}
+
+#imgLogos {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: auto;
+    height: 25px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+#logoSpread {
+    width: auto;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.logo {
+    height: 260px;
+    
+}
+
+#aboutText {
+    width: 200px;
+    height: 450px;
+    font-size: 20px;
+    position: absolute;
+    z-index: +2;
+    top: 200px;
+    text-align: center;
+    margin-left: 200px;
 }
 
 
