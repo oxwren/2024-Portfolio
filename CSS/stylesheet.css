@@ -35,6 +35,14 @@ ul {
     width: 1024px;
     height: 3000px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 0;
+}
+
+
+
+h4 {
+    font-style: italic;
+    text-align: center;
 }
 
 #aboutBox {
