@@ -1,50 +1,55 @@
+```css
+/* Define custom font */
 @font-face {
     font-family: 'bodonimoda';
     src: url('../type/bodonimoda-variablefont_opszwght-webfont.woff') format('woff'),
          url('../type/bodonimoda-variablefont_opszwght-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-
 }
 
+/* Styles for the body element */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     top: 0px;
     flex-direction: column;
-    
+    /* Uncomment the following line to set a background color */
+    /* background-color: #B1DCEF; */
 }
 
+/* Styles for unordered lists */
 ul {
     font-size: 12px;
 }
 
+/* Styles for the logo */
 #logo {
-    margin-left: 47px;
     margin-top: 5px;
-    
+    margin-right: 150px;
     height: 168px;
     z-index: +1;
 }
 
+/* Styles for the main container */
 #mainContainer {
     display: flex;
     flex-direction: column;
     background-color: white;
     width: 1024px;
-    height: 3000px;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    top: 0;
+    top: 0px;
 }
 
-
-
+/* Styles for level 4 headings */
 h4 {
     font-style: italic;
     text-align: center;
 }
 
+/* Styles for the about box */
 #aboutBox {
     display: flex;
     align-items: flex-start;
@@ -54,26 +59,35 @@ h4 {
     z-index: +1;
 }
 
+/* Styles for the 'me' image */
 #me {
     width: 395px;
     height: 397px;
 }
 
+/* Styles for the speech bubble image */
 #speechBubble {
     margin-left: 78px;
 }
 
-
+/* Styles for the header */
 #header {
-    width: auto;
+    width: 100%;
     height: 128px;
     background-color: #C4E2BF;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 150px;
-    
 }
 
+/* Styles for the header group */
+#headerGroup {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Styles for the navigation links */
 #headingThing {
     display: flex;
     justify-content: space-around;
@@ -86,6 +100,7 @@ h4 {
     align-items: center;
 }
 
+/* Styles for header links */
 .header {
     background-color: #36718A;
     width: 64px;
@@ -96,6 +111,7 @@ h4 {
     font-size: 16px;
 }
 
+/* Styles for anchor links */
 a {
     display: flex;
     justify-content: space-around;
@@ -107,26 +123,22 @@ a {
     font-family: 'bodonimoda';
     align-items: center;
     text-decoration: none;
-
 }
 
-
+/* Styles for specific navigation items */
 #liVisual {
     width: 107px;
     height: 32px;
-    
 }
 
 #liDesign {
-   
     width: 77px;
     height: 32px;
-    
 }
 
-
+/* Styles for specific elements */
 #aboutTop {
-     top: 102px;
+    top: 102px;
 }
 
 #about {
@@ -136,6 +148,7 @@ a {
     border: black;
 }
 
+/* Styles for the skills section */
 #skills {
     width: auto;
     height: 584;
@@ -143,10 +156,10 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
 }
 
-h1  {
+/* Styles for level 1 headings */
+h1 {
     font-size: 120px;
     font-style: bold;
     color: #36718A;
@@ -154,29 +167,40 @@ h1  {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/* Styles for level 2 headings */
 h2 {
     text-align: center;
     font-size: 22px;
     font-style: italic;
 }
 
+/* Styles for skill section */
 #skillStuff {
     justify-content: center;
     display: flex;
     flex-direction: row;
 }
 
+/* Styles for experience list */
+.expList {
+    font-size: 12px;
+}
+
+/* Styles for skill items */
 .skillz {
     height: 144px;
     width: 192px;
     background-color: white;
     margin: 20px;
     margin-bottom: 75px;
-
 }
 
+/* Styles for experience subheadings */
+.expSub {
+    font-size: 15px;
+}
 
-
+/* Styles for the visual section */
 #visual {
     width: auto;
     height: 1580px;
@@ -188,35 +212,40 @@ h2 {
     z-index: +1;
 }
 
+/* Styles for extended visual section */
 #visualExtended {
     height: 1284px;
     width: auto;
     background-color: white;
 }
 
+/* Styles for the logo design section */
 #logoDesign {
-    width: auto;
-    height: 1000px;
+    width: 100%;
+    height: 800px;
     background-color: #C4E2BF;
     margin-top: 1440px;
 }
 
+/* Styles for colored text */
 .colorText {
     color: white;
 }
 
-
+/* Styles for art images */
 #artImages {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
+/* Styles for image rows */
 #imgs {
     display: flex;
     flex-direction: row;
 }
 
+/* Styles for rows */
 .rows {
     display: flex;
     flex-direction: column;
@@ -224,11 +253,13 @@ h2 {
     margin: 15px;
 }
 
+/* Styles for images in the first row */
 .rowOneImg {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
+/* Styles for specific images in the first row */
 #topImgOne {
     margin-top: 0px;
 }
@@ -237,14 +268,17 @@ h2 {
     margin-bottom: 0px;
 }
 
+/* Styles for images in the second row */
 .rowTwoImg {
     margin-top: 17px;
 }
 
+/* Styles for specific images in the second row */
 #topImgTwo {
     margin-top: 0px;
 }
 
+/* Styles for art experience */
 #artExperience {
     height: 1500px;
     width: 322px;
@@ -252,10 +286,10 @@ h2 {
     margin-left: 45px;
     margin-right: 55px;
     display: flex;
-    
     justify-content: center;
 }
 
+/* Styles for visual title */
 #visualTitle {
     margin-top: 100px;
     margin-bottom: 0;
@@ -263,6 +297,7 @@ h2 {
     margin-right: 0;
 }
 
+/* Styles for outline */
 #outline {
     display: flex;
     justify-content: center;
@@ -271,10 +306,13 @@ h2 {
     width: 962px;
     position: absolute;
     z-index: +1;
-    top: 570px;
+    top: 
+
+    570px;
     margin: 25px;
 }
 
+/* Styles for rectangle */
 #rectangle {
     display: flex;
     justify-content: center;
@@ -283,6 +321,7 @@ h2 {
     top: 512px;
 }
 
+/* Styles for skills title */
 #skillsTitle {
     margin-left: 156px;
     margin-top: 5px;
@@ -290,16 +329,19 @@ h2 {
     z-index: +1;
 }
 
+/* Styles for logo header */
 #logoHeader {
     margin-left: 85px;
 }
 
+/* Styles for logo images */
 #imgLogos {
     width: auto;
     display: flex;
     align-items: center;
 }
 
+/* Styles for horizontal lines */
 .line {
     width: auto;
     height: 25px;
@@ -307,21 +349,48 @@ h2 {
     margin-top: 30px;
 }
 
+/* Styles for logo spread */
 #logoSpread {
-    width: auto;
+    
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoImages {
+    width: 1024px;
     height: 300px;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+}
+
+#headBox {
+    width: 100%;
+    height: 100px;
     
 }
 
+#headMini {
+    
+    width: 1024px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for logos */
 .logo {
     height: 260px;
-    
 }
 
+/* Styles for about text */
 #aboutText {
     width: 375px;
     height: 450px;
@@ -334,6 +403,7 @@ h2 {
     margin-left: 150px;
 }
 
+/* Styles for about subheading */
 #aboutSub {
     width: 375px;
     height: 450px;
@@ -347,10 +417,25 @@ h2 {
     margin-left: 150px;
 }
 
+/* Styles for experience margin */
 #experienceMargin {
     height: 1450px;
     width: 272px;
+    margin-top: 50px;
 }
 
+/* Styles for experience headings */
+.expHead {
+    font-size: 24px;
+    font-style: normal;
+}
 
+/* Add a transition effect to the color property of the navigation links */
+.header a {
+    transition: color 0.3s ease;
+}
 
+/* Change the color of the navigation links on hover */
+.header a:hover {
+    background-color: #0c6286; /* Change to desired hover color */
+}
