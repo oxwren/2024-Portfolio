@@ -1,4 +1,4 @@
-```css
+
 /* Define custom font */
 @font-face {
     font-family: 'bodonimoda';
@@ -99,6 +99,8 @@ h4 {
     font-family: 'bodonimoda';
     align-items: center;
 }
+
+
 
 /* Styles for header links */
 .header {
@@ -224,7 +226,7 @@ h2 {
     width: 100%;
     height: 800px;
     background-color: #C4E2BF;
-    margin-top: 1440px;
+    margin-top: 1425px;
 }
 
 /* Styles for colored text */
@@ -370,18 +372,19 @@ h2 {
 
 }
 
-#headBox {
+.headBox {
     width: 100%;
-    height: 100px;
-    
-}
-
-#headMini {
-    
-    width: 1024px;
     height: 100px;
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+}
+
+.headMini {
+    width: 1024px;
+    height: 100px;
+    display: flex;
+    
     align-items: center;
 }
 
